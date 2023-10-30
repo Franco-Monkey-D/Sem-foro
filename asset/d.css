@@ -1,0 +1,100 @@
+.hol{
+ background-image: url(./1.jpg) ;
+ background-position-x:center;
+}
+.relleno{
+    margin-top: 20px;
+    background-color: #9792898c;
+    border: 3px solid #3f3f37;
+}
+
+.contenedor{
+    margin:0px auto;
+    margin-top: 20px;
+    width: 17%; height: 400px; 
+    background-color: #292F33;
+    border: 3px solid #e935b3;
+    border-radius: 40px ;
+}
+.crojo{
+    border: 3px solid #e94135;
+}
+.camarillo{
+    border: 3px solid #d7e935;
+}
+.cverde{
+    border: 3px solid #4ae935;
+}
+
+
+.rojo{
+    margin-top: 20px;
+    background-color: #DD2E44;
+    border: 3px solid #eb4949;
+}
+#circulo1{
+    margin:0px auto;
+	margin-top: 20px;
+	border-radius: 200px;
+    width: 100px; height: 100px;
+	position:relative;
+	top: 0; left: 0;
+}
+
+.amarillo{
+    margin-top: 20px;
+    background-color: #FFCC4D;
+    border: 3px solid #e9e638;
+}
+#circulo2{
+    margin:0px auto;
+	margin-top: 20px;
+	border-radius: 200px;
+    width: 100px; height: 100px;
+	position:relative;
+	top: 0; left: 0;
+}
+
+.verde{
+    margin-top: 20px;
+    background-color: #77B255;
+    border: 3px solid #1ce937;
+}
+#circulo3{
+    margin:0px auto;
+	margin-top: 20px;
+	border-radius: 200px;
+    width: 100px; height: 100px;
+	position:relative;
+	top: 0; left: 0;
+}
+
+.select{
+	margin-top: 20px;
+    text-align: center;
+    font-family:'Lucida Sans';
+}
+
+.select select{
+	padding: 10px;
+    text-align: center;
+    font-size: medium;
+    font-style:oblique;
+}
+.select option {
+    background-color:  #5bb8a23f;
+}
+
+.en input[type="submit"]{
+    border-radius: 59px;
+    border: 0;
+    background-color:  #2fdda9a2;
+    padding: 15px;
+    width: 11%;
+    font-weight: bolder;
+    font-size:  17px;
+    }
+    
+input[type="submit"]:hover{
+    background: #ee393977;
+}

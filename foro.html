@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/d.css">
+    <script type="text/javascript" src="asset/java.js"></script>
+    <title>Semaforo</title>
+</head>
+<body class="hol">
+    <form method="post" onsubmit="return false;">
+
+    <div class="contenedor" id="caja">
+        <div id="circulo1" class="relleno"></div>
+        <div id="circulo2" class="relleno"></div>
+        <div id="circulo3" class="relleno"></div>
+    </div>
+<br>
+
+    <div class="select">
+    <label for="color">Cambia el color</label> <br>
+    <select name="cambia" id="cambia">
+        <option value="Selecciona" >Selecciona un color</option>
+        <option value="1" >Rojo</option>
+        <option value="2">Amarillo</option>
+        <option value="3">Verde</option>
+    </select>
+    
+    <br><br><br>
+
+    <div class="en">
+        <input type="submit" value="Cambiar"  onclick="cambiar();"/>
+    </div>
+    
+    </div>
+
+    </form>
+</body>
+</html>
